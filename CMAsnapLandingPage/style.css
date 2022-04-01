@@ -4,6 +4,21 @@
     --background-color-3: #103C0F;
 }
 
+body {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h3 {
+    color: #5CA24B;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .color-1 {
     background-color: var(--background-color-1);
 }
