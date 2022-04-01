@@ -1,0 +1,15 @@
+:root {
+    --background-color-1: #FCF7F3;
+    --background-color-2: #FFFFFF;
+    --background-color-3: #103C0F;
+}
+
+.color-1 {
+    background-color: var(--background-color-1);
+}
+.color-2 {
+    background-color: var(--background-color-2);
+}
+.banner-1 {
+    background-color: var(--background-color-3);
+}
