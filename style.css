@@ -1,30 +1,28 @@
 :root {
-    --background-color-1: #FCF7F3;
-    --background-color-2: #FFFFFF;
-    --background-color-3: #103C0F;
-}
-
-body {
-    box-sizing: border-box;
-    width: 100%;
-}
-
-h3 {
-    color: #5CA24B;
-}
-
-.middle{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  --background-color-1: #fcf7f3;
+  --background-color-2: #ffffff;
+  --background-color-3: #103c0f;
 }
 
 .color-1 {
-    background-color: var(--background-color-1);
+  background-color: var(--background-color-1);
 }
 .color-2 {
-    background-color: var(--background-color-2);
+  background-color: var(--background-color-2);
 }
 .banner-1 {
-    background-color: var(--background-color-3);
+  background-color: var(--background-color-3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h3 {
+  color: #5ca24b;
 }
